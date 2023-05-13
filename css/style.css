@@ -54,3 +54,23 @@ h2{
     color: var(--main-font-color);
     margin: 0 1rem;
 }
+
+.fleche{
+    margin: 14rem auto;
+    width: 3rem;
+    display: block;
+    animation: flechebas 2s infinite;
+}
+
+
+@keyframes flechebas {
+    0% {
+      margin-top: 14rem;
+    }
+    50% {
+      margin-top: 19rem ;
+    }
+    100% {
+        margin-top: 14rem;
+    }
+  }

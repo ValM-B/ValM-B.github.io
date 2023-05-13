@@ -1,0 +1,56 @@
+/* 
+charte graphique
+vert #a6d3cd 
+rose #e6808e
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Vollkorn SC', serif;
+font-family: 'Ysabeau', sans-serif;*/
+
+:root{
+    --main-color-green: #a6d3cd;
+    --main-color-rose: #fda29d;
+    --main-font-color: rgb(68, 68, 68);
+    --font-color-subtitle: grey;
+    --main-font-family: 'Ysabeau', sans-serif;
+    --font-family-subtitle:'Vollkorn SC', serif;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)), url(../images/Fondpixels.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    font-family: var(--main-font-family);
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--main-font-color);
+    text-align: center;
+    padding-top: 10rem;
+}
+
+h2{
+    font-family: var(--font-family-subtitle);
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: var(--font-color-subtitle);
+    margin: 1rem auto;
+    padding: 2rem;
+    border-bottom: 1px solid var(--main-font-color);
+    width: 20rem;
+
+}
+
+.header__navbar{
+    text-align: center;
+    margin-top: 4rem;
+}
+.header__navbar img {
+    width: 2.5rem;
+    color: var(--main-font-color);
+    margin: 0 1rem;
+}

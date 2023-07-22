@@ -48,7 +48,7 @@ h2{
     font-size: 2.5rem;
     color: var(--font-color-subtitle);
     margin: 1rem auto;
-    padding: 2rem;
+    padding: 2rem 0;
     border-bottom: 1px solid var(--main-font-color);
     width: 20rem;
 

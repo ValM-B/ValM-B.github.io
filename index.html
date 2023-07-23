@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway:ital,wght@0,200;0,400;0,500;1,200;1,400;1,700&family=Vollkorn+SC:wght@400;600;700&family=Ysabeau:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/7e93612a52.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -80,22 +81,85 @@
 					<h5 class="card-title">A propos</h5>	
 					<div class="card">
 						<div class="card-body">
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text">Animée par ma créativité et captivée par la logique, je me suis récemment reconvertie en tant que développeuse web. Mon parcours témoigne de ma détermination à embrasser de nouveaux défis et à apprendre continuellement.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row my-auto">
-				<div class="col-sm-4 mb-3 mb-sm-0">
+				<div class="mb-3 mb-sm-0">
 					<h5 class="card-title">Hard skills</h5>	
 					<div class="card">
 						<div class="card-body">
-							<ul->
-								<li>php</li>
-								<li>JS</li>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Symfonie</li>
+							<ul class="row list-unstyled">
+								<li class="col-sm-4">
+									<a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseLanguage">Langages informatiques</a>
+									<!-- <div class="collapse show row mt-2" id="collapseLanguage">
+										<img src="assets/images/php.png" alt="php">
+										<img src="assets/images/javascript.png" alt="Javascript">
+										<img src="assets/images/html.png" alt="html">
+										<img src="assets/images/css.png" alt="CSS3">
+										<img src="assets/images/mysql.png" alt="mysql">
+									</div> -->
+									<ul class="collapse show row mt-2" id="collapseLanguage">
+										<li>PHP</li>
+										<li>Javascript</li>
+										<li>HTML/CSS</li>
+										<li>MySQL</li>
+									</ul>
+								</li>
+								<li class="col-sm-4">
+									<a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseFrameworks">Frameworks</a>
+									<ul class="collapse show row mt-2" id="collapseFrameworks">
+										<li>Symfonie</li>
+										<li>Laravel (notions)</li>
+									</ul>
+									<!-- <div class="collapse row show mt-2" id="collapseFrameworks">
+										<img src="assets/images/symfonie.png" alt="symfonie">
+										<img src="assets/images/Laravel.png" alt="laravel" id="laravel-icon">
+									</div> -->
+								</li>
+								<li class="col-sm-4">
+									<a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseLibrairies">Librairies</a>
+									<ul class="collapse show row mt-2" id="collapseLibrairies">
+										<li>Bootstrap</li>
+									</ul>
+									<!-- <div class="collapse  show row" id="collapseLibrairies">
+										<img src="assets/images/bootstrap.png" alt="bootstrap">
+									</div> -->
+								</li>
+								<li class="col-sm-4">
+									<a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseCMS">CMS</a>
+									<ul class="collapse row mt-2" id="collapseCMS">
+										<li>Wordpress</li>
+										<li>Prestashop</li>
+									</ul>
+									<!-- <div class="collapse row mt-2" id="collapseCMS">
+										<img src="assets/images/wordpress.png" alt="wordpress">
+										<img src="assets/images/prestashop.png" alt="prestashop">
+									</div> -->
+								</li>
+								<li class="col-sm-4">
+									<a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseTools">Outils</a>
+									
+										<ul class="collapse row mt-2" id="collapseTools">
+											<li>Git, Github</li>
+											<li>VS Code</li>
+											<li>PHPMyAdmin, Adminer</li>
+											<li>Trello</li>
+										</ul>
+									
+								</li>
+								
+								<li class="col-sm-4">
+									<a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseEnglish">Anglais</a>
+									
+										<ul class="collapse row mt-2" id="collapseEnglish">
+											<li>Compréhension orale/écrite B2</li>
+											<li>Expression orale/écrite B1</li>
+										</ul>
+									
+								</li>
 							</ul->
 						</div>
 					</div>
@@ -104,12 +168,13 @@
 					<h5 class="card-title">Soft skills</h5>	
 					<div class="card">
 						<div class="card-body">
-							<ul->
-								<li>php</li>
-								<li>JS</li>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Symfonie</li>
+							<ul>
+								<li>Autonomie</li>
+								<li>Logique</li>
+								<li>Détermination</li>
+								<li>Curiosité</li>
+								<li>Patience</li>
+								<li>Créativité</li>
 							</ul->
 						</div>
 					</div>
@@ -118,12 +183,32 @@
 					<h5 class="card-title">Centres d'intéret</h5>	
 					<div class="card">
 						<div class="card-body">
-							<ul->
-								<li>php</li>
-								<li>JS</li>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Symfonie</li>
+							<ul class="list-unstyled">
+								<li > <a role="button" class="btn btn-primary d-block w-80" data-bs-toggle="collapse" href="#collapseKnit"><i class="fa-solid fa-ruler"></i> Arts du fil</a> 
+									<ul class="collapse" id="collapseKnit">
+										<li>Tricot</li>
+										<li>Filage / teinture</li>
+										<li>Couture</li>
+									</ul>
+								</li>
+								<li> <a data-bs-toggle="collapse" href="#collapseArchery" role="button" class="btn btn-primary d-block w-80"><i class="fa-solid fa-bullseye"></i> Tir à l'arc</a>
+									<ul class="collapse" id="collapseArchery">
+										<li>Ancienne archère en compétition, Championnats de France par équipe et individuel</li>
+										<li>Organisation d'évènement sportif (compétition et caritatif)</li>
+									</ul>
+								</li>
+								<li>
+									<a data-bs-toggle="collapse" href="#collapsePastry" role="button" class="btn btn-primary d-block w-80">
+										<i class="fa-solid fa-cookie-bite"></i> Blogueuse culinaire
+									</a>
+									<ul class="collapse" id="collapsePastry">
+										<li>Création de contenu</li>
+										<li>Rédaction d'articles</li>
+										<li>Photographie</li>
+										<li>Communication</li>
+										<li>Partenariat avec des marques</li>
+									</ul>
+								</li>
 							</ul->
 						</div>
 					</div>
@@ -308,7 +393,7 @@
 		</section>
 	</main>
 	<footer>
-
+	
 	</footer>
 	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

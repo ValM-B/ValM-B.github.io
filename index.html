@@ -16,7 +16,7 @@
 	<header>
 		<h1>Valérie Maurice</h1>
 		<h2>Développeuse Web</h2>
-		<ul class="nav justify-content-center">
+		<ul class="nav justify-content-center" id="nav-social">
 			<li class="nav-item">
 				<a class="nav-link" aria-current="page" href="mailto:valerie.maurice@oclock.school"><i class="fa-solid fa-square-envelope"></i></a>
 			</li>
@@ -27,17 +27,56 @@
 				<a class="nav-link" href="https://github.com/ValM-B"><i class="fa-brands fa-square-github"></i></a>
 			</li>
 		</ul>
-		<a href="#education">formaiton</a>
-		<div class="header-arrow">
-			<i class="fa-solid fa-angles-down"></i>
+		<div class="d-md-block d-none" id="nav-section">
+			<ul class="nav justify-content-center" >
+				<li class="nav-item">
+				<a class="nav-link" href="#about-me">Qui suis-je</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#experience">Expériences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#education">Formation</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#education">Portfolio</a>
+				</li>
+			</ul>
 		</div>
-		
+		<div class="d-md-none position-absolute top-30 end-0">
+			<p>
+				
+				<button class="btn btn-primary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+			  </p>
+			  <div class="collapse" id="collapseExample">
+				<div class="card card-body">
+					<ul class="nav flex-column">
+						<li class="nav-item">
+						<a class="nav-link" href="#about-me">Qui suis-je</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#experience">Expériences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#education">Formation</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#education">Portfolio</a>
+						</li>
+					</ul>
+				</div>
+			  </div>
+			
+		</div>
 	</header>
 
 	<main>
-		<section class="about-me p-3 ">
+		
+		<section class="about-me p-3 " id="about-me">
 			<div class="row my-auto">
-				<div class="col-sm-4 mb-3 mb-sm-0">
+				<div class="mb-3 mb-sm-0">
 					<h5 class="card-title">A propos</h5>	
 					<div class="card">
 						<div class="card-body">
@@ -45,6 +84,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row my-auto">
 				<div class="col-sm-4 mb-3 mb-sm-0">
 					<h5 class="card-title">Hard skills</h5>	
 					<div class="card">
@@ -73,9 +114,23 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-sm-4 mb-3 mb-sm-0">
+					<h5 class="card-title">Centres d'intéret</h5>	
+					<div class="card">
+						<div class="card-body">
+							<ul->
+								<li>php</li>
+								<li>JS</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Symfonie</li>
+							</ul->
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
-		<section class="xp">
+		<section class="xp" id="experience">
 			<div class="text-center">
 				<div class="row">
 					<div class="card col-md-7">
@@ -109,7 +164,7 @@
 			</div>
 
 		</section>
-		<section class="education" id="education">
+		<section class="education" iid="education">
 			<div class="text-center">
 				<div class="row">
 					<div class="card col-md-7">
@@ -143,85 +198,112 @@
 			</div>
 
 		</section>
+		<section class="portfolio">
+				<div class="row my-auto">
+					<div class="col-sm-4 mb-3 mb-sm-0">
+						<div class="card">
+							<img src="assets/images/cronut-passion.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Mon site</h5>
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Launch static backdrop modal
+								</button>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse culpa dolore cum, molestiae mollitia quis iste minima maxime? Quod odit voluptates vel dolor aperiam labore, sequi, ab, officia commodi dolores ad. Neque eveniet facere eum totam tempore reprehenderit tenetur ducimus asperiores veniam deleniti rem eos, placeat harum sit, a consectetur ut! Nam error maiores nisi animi quibusdam. Animi perferendis nesciunt distinctio adipisci cupiditate quisquam inventore, tempora natus dignissimos ipsa officia ad architecto incidunt laborum, rem dicta voluptates quos doloremque. Necessitatibus veniam sunt cupiditate possimus minus. A quasi perferendis nisi nobis reiciendis eos quo cum iste, magnam dignissimos nemo debitis, fugit soluta voluptatem repellendus quibusdam animi alias id optio. Maxime dignissimos obcaecati facere voluptatem voluptatum possimus non! Aperiam ipsam facere, perferendis, quam illo eligendi velit, quasi ratione commodi facilis ab! Ratione, pariatur explicabo. Incidunt, repellat harum animi assumenda iure quae reiciendis saepe recusandae voluptas, illo explicabo, dignissimos iusto placeat qui labore. Reiciendis architecto accusamus nemo soluta molestiae doloribus sequi officia vero consequuntur consectetur earum quod distinctio vel molestias quaerat unde obcaecati alias eligendi, quos ducimus! Excepturi, nostrum, cumque alias sapiente ab soluta repellendus quod maiores hic vero laudantium ad. Ut consectetur dignissimos ab enim obcaecati neque fugit molestiae alias saepe eos!
+												
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-primary">Understood</button>
+											</div>
+										</div>
+									</div>
+								</div>
 
-		<!-- <secion class="formation">
-			<div class="formation-titre">
-				<h3>Formation</h3>
+							</div>
+						</div>
+					</div>
+				
+				
+
+					<div class="col-sm-4 mb-3 mb-sm-0">
+						<div class="card">
+							<img src="assets/images/cronut-passion.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Mon site</h5>
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Launch static backdrop modal
+								</button>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse culpa dolore cum, molestiae mollitia quis iste minima maxime? Quod odit voluptates vel dolor aperiam labore, sequi, ab, officia commodi dolores ad. Neque eveniet facere eum totam tempore reprehenderit tenetur ducimus asperiores veniam deleniti rem eos, placeat harum sit, a consectetur ut! Nam error maiores nisi animi quibusdam. Animi perferendis nesciunt distinctio adipisci cupiditate quisquam inventore, tempora natus dignissimos ipsa officia ad architecto incidunt laborum, rem dicta voluptates quos doloremque. Necessitatibus veniam sunt cupiditate possimus minus. A quasi perferendis nisi nobis reiciendis eos quo cum iste, magnam dignissimos nemo debitis, fugit soluta voluptatem repellendus quibusdam animi alias id optio. Maxime dignissimos obcaecati facere voluptatem voluptatum possimus non! Aperiam ipsam facere, perferendis, quam illo eligendi velit, quasi ratione commodi facilis ab! Ratione, pariatur explicabo. Incidunt, repellat harum animi assumenda iure quae reiciendis saepe recusandae voluptas, illo explicabo, dignissimos iusto placeat qui labore. Reiciendis architecto accusamus nemo soluta molestiae doloribus sequi officia vero consequuntur consectetur earum quod distinctio vel molestias quaerat unde obcaecati alias eligendi, quos ducimus! Excepturi, nostrum, cumque alias sapiente ab soluta repellendus quod maiores hic vero laudantium ad. Ut consectetur dignissimos ab enim obcaecati neque fugit molestiae alias saepe eos!
+												
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-primary">Understood</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					
+
+					<div class="col-sm-4 mb-3 mb-sm-0">
+						<div class="card">
+							<img src="assets/images/cronut-passion.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Mon site</h5>
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+									Launch static backdrop modal
+								</button>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse culpa dolore cum, molestiae mollitia quis iste minima maxime? Quod odit voluptates vel dolor aperiam labore, sequi, ab, officia commodi dolores ad. Neque eveniet facere eum totam tempore reprehenderit tenetur ducimus asperiores veniam deleniti rem eos, placeat harum sit, a consectetur ut! Nam error maiores nisi animi quibusdam. Animi perferendis nesciunt distinctio adipisci cupiditate quisquam inventore, tempora natus dignissimos ipsa officia ad architecto incidunt laborum, rem dicta voluptates quos doloremque. Necessitatibus veniam sunt cupiditate possimus minus. A quasi perferendis nisi nobis reiciendis eos quo cum iste, magnam dignissimos nemo debitis, fugit soluta voluptatem repellendus quibusdam animi alias id optio. Maxime dignissimos obcaecati facere voluptatem voluptatum possimus non! Aperiam ipsam facere, perferendis, quam illo eligendi velit, quasi ratione commodi facilis ab! Ratione, pariatur explicabo. Incidunt, repellat harum animi assumenda iure quae reiciendis saepe recusandae voluptas, illo explicabo, dignissimos iusto placeat qui labore. Reiciendis architecto accusamus nemo soluta molestiae doloribus sequi officia vero consequuntur consectetur earum quod distinctio vel molestias quaerat unde obcaecati alias eligendi, quos ducimus! Excepturi, nostrum, cumque alias sapiente ab soluta repellendus quod maiores hic vero laudantium ad. Ut consectetur dignissimos ab enim obcaecati neque fugit molestiae alias saepe eos!
+												
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-primary">Understood</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-				<ul class="formation-contenu">
-					<li class="formation1">
-						<h4>Développement Web et Web Mobile</h4>
-						<h5>
-							<p class="lieu">O'Clock</p>
-							<date>Depuis Mai 2023</date>
-						</h5>
-					</li>
-					<li class="formation2">
-						<h4>Licence Sciences de Gestion</h4>
-						<h5>
-							<p class="lieu">IAE de Tours</p>
-							<date>2005 - 2006</date>
-						</h5>
-					</li>
-					<li class="formation3">
-						<h4>DECF - UV 2, 4 et 6</h4>
-						<h5>
-							<p class="lieu">Saint Joseph de Tivoli - Bordeaux</p>
-							<date>2004 - 2005</date>
-						</h5>
-					</li>
-					<li class="formation4">
-						<h4>BTS Comptabilité et gestion des organisations</h4>
-						<h5>
-							<p class="lieu">Saint Joseph de Tivoli - Bordeaux</p>
-							<date>2002 - 2004</date>
-						</h5>
-					</li>
-					<li class="formation4">
-						<h4>Bac STT comptabilité gestion</h4>
-						<h5>
-							<p class="lieu">Saint Joseph de Tivoli - Bordeaux</p>
-							<date>1999 - 2001</date>
-						</h5>
-					</li>
-				</ul>
-			
-		</secion>
-		<div class="infos-complementaires">
-			<section class="competences">
-				<h3 class="competences-titre">Compétences</h3>
-				<ul>
-					<li>Maîtrise de l'outil informatique</li>
-					<li>Maîtrise des logiciels de bureautique
-						(Office)</li>
-					<li>Utilisation de logiciels de graphisme
-						(GIMP, Canva, InkScape)</li>
-					<li>Maîtrise des CMS Wordpress et
-						Prestashop</li>
-					<li>Notions en langages informatiques
-						(JAVASCRIPT, HTLM/CSS, SQL)</li>
-					<li>Permis B</li>
-				</ul>
-			</section>
-			<section class="centre-interet">
-				<h3 class="centre-interet-titre">Centre d'intérêt</h3>
-				<ul>
-					<li>Arts du fil : filage, teinture,
-						tricot, couture...</li>
-					<li>Tir à l'arc : Pratique en loisir, ancienne
-						compétitrice (niveau national
-						par équipe et individuel)</li>
-					<li>Organisation d'évènements
-						sportifs</li>
-					<li>Blogueuse : création de
-						contenu,rédaction d'articles,
-						photo, communication,
-						partenariats avec des marques</li>
-					<li></li>
-					<li></li>
-				</ul>
-			</section>
-		</div> -->
+		</section>
 	</main>
 	<footer>
 

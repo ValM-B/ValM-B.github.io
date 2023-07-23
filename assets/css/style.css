@@ -54,6 +54,17 @@ h2{
 
 }
 
+.btn-primary {
+    --bs-btn-bg: var(--main-color-green);
+    --bs-btn-border-color: var(--main-color-green);
+    --bs-btn-hover-bg: var(--main-color-yellow);
+    --bs-btn-hover-border-color: var(--main-color-yellow);
+    --bs-btn-active-bg: #3d6c79;
+    --bs-btn-active-border-color: #3d6c79;
+    --bs-btn-disabled-bg: #3d6c79;
+    --bs-btn-disabled-border-color: #3d6c79;
+}
+
 .nav-item i, 
 .nav-item a{
     font-size : 2rem;
@@ -74,6 +85,15 @@ h2{
     color: var(--main-color-yellow)
 }
 
+/* ==== Style du header ==== */
+
+a{
+    color : #3d6c79
+}
+
+a:hover{
+    color: var(--main-color-green);
+}
 
 .about-me,
 .education{
@@ -95,7 +115,7 @@ section .year {
 
 .xp .card,
 .education .card{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 
@@ -109,29 +129,29 @@ section .year {
 
 .year-left,
 .year-right{
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     
 }
 .year-left {
     border-radius: 50% 50% 100% 0% / 100% 50% 50% 0% ;
-    right : -80px;
+    right : -110px;
     
 }
 
 .year-right{
     border-radius: 50% 50% 0% 100% / 50% 100% 0% 50% ;
-    left : -80px;
+    left : -110px;
     
 }
 
 .year-top-left,
 .year-top-right{
     position : absolute; 
-    top : -20px;
-    height: 20px;
-    width: 50px;
+    top : -23px;
+    height: 23px;
+    padding: 0 1rem;
     border-radius : 15px 15px 0px 0px;
 }
 

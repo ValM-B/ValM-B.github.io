@@ -150,23 +150,24 @@ section .year {
 
 .xp .year{
     background-color: var(--main-color-green);
+
 }
 
 .year-left,
 .year-right{
-    height: 100px;
+    height: 100%;
     width: 100px;
     position: absolute;
     
 }
 .year-left {
-    border-radius: 50% 50% 100% 0% / 100% 50% 50% 0% ;
+    border-radius: 50px;
     right : -110px;
     
 }
 
 .year-right{
-    border-radius: 50% 50% 0% 100% / 50% 100% 0% 50% ;
+    border-radius: 50px ;
     left : -110px;
     
 }

@@ -29,8 +29,6 @@ header{
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)), url(../images/Fondpixels.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    display: flex;
-    flex-direction: column;
 
 }
 
@@ -100,30 +98,11 @@ h3{
     margin-top: 1rem;
 }
 
-.collapse img{
-    height: auto;
-    width: 30%;
-}
-
-#collapseLanguage img{
-    width: 20%;
-}
-
-#collapseFrameworks img{
-    width: 40%;
-}
-
-#collapseFrameworks #laravel-icon{
-    width: 60%;
-}
-
-#collapseLibrairies img{
-    width: 50%
-}
 
 .hobbies a{
     margin-bottom: 1.25rem;
 }
+
 a{
     color : #3d6c79
 }
@@ -295,7 +274,7 @@ h5 p{
 
 footer{
     
-    height: 50vh;
+    height: 40vh;
     background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(../images/Fondpixels-footer.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -305,6 +284,22 @@ footer{
     
     
     
+}
+
+#email{
+    font-size: 1.5rem;
+    color : var(--font-color-subtitle);
+    font-family: var(--main-font-family);
+}
+
+footer p{
+    font-family: var(--font-color-subtitle);
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+footer h4{
+    margin-top: 5rem;
 }
 
 

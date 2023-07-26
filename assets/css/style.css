@@ -54,6 +54,15 @@ h2{
 
 }
 
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.3rem;
+    color: var(--font-color-subtitle);
+}
+
+
 .btn-primary {
     --bs-btn-bg: var(--main-color-green);
     --bs-btn-border-color: var(--main-color-green);
@@ -112,6 +121,9 @@ h2{
     width: 50%
 }
 
+.hobbies a{
+    margin-bottom: 1.25rem;
+}
 a{
     color : #3d6c79
 }
@@ -185,13 +197,10 @@ section .year {
     right : 1rem;
 }
 
-
-
-h3{
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
+.year p{
+    margin-bottom: 0.5rem;
 }
+
 
 .experience-contenu, .formation-contenu{
     width: 70%;
@@ -287,12 +296,12 @@ h5 p{
 footer{
     
     height: 50vh;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)), url(../images/Fondpixels.jpg);
+    background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(../images/Fondpixels-footer.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
     flex-direction: column;
-    transform: scaleY(-1); 
+    background-position: bottom;
     
     
     

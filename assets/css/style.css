@@ -223,8 +223,30 @@ h5 p{
     margin-left: 1rem;
 }
 
+.modal-body-label{
+    padding: 0.5rem 0.8rem;
+    margin: 1rem;
+    background-color: var(--main-color-green);
+    border-radius: 30px;
+  
+}
 
+.modal-body img{
+    width: 50%;
+    margin: 1rem auto;
+}
 
+.modal-btn{
+    font-size: 3rem;
+}
+
+.modal-footer i{
+    font-size: 1.5rem
+}
+
+.modal-footer .github{
+    padding: 0.3rem
+}
 /* ==== Style de la section Centre d'interets */
 
 .infos-complementaires{
@@ -274,7 +296,7 @@ h5 p{
 
 footer{
     
-    height: 40vh;
+   
     background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(../images/Fondpixels-footer.jpg);
     background-repeat: no-repeat;
     background-size:cover;

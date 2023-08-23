@@ -48,7 +48,7 @@ h2{
     margin: 1rem auto;
     padding: 2rem 0;
     border-bottom: 1px solid var(--main-font-color);
-    width: 20rem;
+    
 
 }
 
@@ -72,6 +72,8 @@ h3{
     --bs-btn-disabled-border-color: #3d6c79;
 }
 
+/* ==== Style de la navbar==== */
+
 .nav-item i, 
 .nav-item a{
     font-size : 2rem;
@@ -92,7 +94,20 @@ h3{
     color: var(--main-color-yellow)
 }
 
-/* ==== Style du header ==== */
+/* ==== Style du main ==== */
+
+h4{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+h5{
+    font-family: var(--font-family-subtitle);
+    color: var(--font-color-subtitle);
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0 0;
+}
 
 .list-unstyled li{
     margin-top: 1rem;
@@ -133,7 +148,6 @@ section .year {
 .education .card{
     margin-bottom: 30px;
 }
-
 
 .education .year{
     background-color: var(--main-color-yellow);
@@ -180,55 +194,13 @@ section .year {
     margin-bottom: 0.5rem;
 }
 
-
-.experience-contenu, .formation-contenu{
-    width: 70%;
-    height: 50vh;
-    overflow-y: scroll;
-    padding: 0 2rem;
-    box-sizing: border-box;
-}
-
-h4{
-    font-size: 1.7rem;
-    font-weight: bold;
-    margin-top: 1rem;
- }
-
-h5{
-    font-family: var(--font-family-subtitle);
-    color: var(--font-color-subtitle);
-    font-size: 1.2rem;
-    margin: 0.5rem 0 0 0;
-}
-
-h5 p, h5 date{
-    display: inline-block;
-}
-
-h5 p{
-    padding-right: 1rem;
-    margin-right: 1rem;
-    border-right: 1px solid var(--font-color-subtitle);
-}
-
-
-.experience-contenu ul{
-    margin: 1.5rem 1rem 0 1rem;
-    
-}
-
-.experience-contenu li{
-    list-style-type: circle;
-    margin-left: 1rem;
-}
+/* ==== Style des modals ==== */
 
 .modal-body-label{
     padding: 0.5rem 0.8rem;
     margin: 1rem;
     background-color: var(--main-color-green);
     border-radius: 30px;
-  
 }
 
 .modal-body img{
@@ -247,65 +219,18 @@ h5 p{
 .modal-footer .github{
     padding: 0.3rem
 }
-/* ==== Style de la section Centre d'interets */
-
-.infos-complementaires{
-    box-sizing: border-box;
-    height: 70vh;
-    width: 80%;
-    display: flex;
-    margin: 5rem auto;
-    border-radius: 25px;
-    background-color: var(--main-color-green);
-    box-shadow: 0 0 0.6rem rgba(90, 89, 89, 0.3);
-    
-}
-
-.infos-complementaires h3{
-    margin: 2rem auto;
-}
-
-.competences, .centre-interet{
-    width: 50%;
-    text-align: center;
-}
-
-.competences li, .centre-interet li{
-    padding-bottom: 0.5rem;
-    text-align: left;
-    margin-left: 3rem;
-    padding-left: 1rem;
-    font-size: 1.3rem;
-}
-
-.competences li{
-    list-style-type: circle;
-}
-
-.centre-interet li:nth-child(1){
-    /* margin: 0;
-	padding: 36px 0 36px 84px; */
-	list-style: none;
-	background-image: url("../images/des-aiguilles-a-tricoter.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 40px;
-}
 
 /* ==== Style du footer ==== */
 
 footer{
-    
-   
+
     background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(../images/Fondpixels-footer.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
     flex-direction: column;
     background-position: bottom;
-    
-    
-    
+
 }
 
 #email{

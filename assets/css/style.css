@@ -132,12 +132,6 @@ a:hover{
     background: linear-gradient(90deg, var(--main-color-green) 0%, var(--main-color-yellow) 100%);
 }
 
-.xp,
-.education,
-.portfolio{
-    padding : 3rem;
-}
-
 
 .card,
 section .year {
@@ -224,9 +218,29 @@ section .year {
     padding: 0.3rem
 }
 
+/* ==== Style des recommandations ==== */
+
+blockquote {
+    margin: 0;
+  }
+  
+  blockquote p {
+    padding: 15px;
+    background: var(--main-color-yellow);
+    border-radius: 5px;
+  }
+  
+  blockquote p::before {
+    content: '\201C';
+  }
+  
+  blockquote p::after {
+    content: '\201D';
+  }
+
 /* ==== Style du footer ==== */
 
-footer{
+.main-footer{
 
     background-image:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(../images/Fondpixels-footer.jpg);
     background-repeat: no-repeat;
